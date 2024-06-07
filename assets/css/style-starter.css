@@ -14221,6 +14221,7 @@ p.white {
   line-height: 50px;
   font-weight: 600;
   position: relative;
+  color: white;
 }
 
 .title-left {
