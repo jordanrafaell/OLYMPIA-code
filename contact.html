@@ -93,14 +93,16 @@
                 <div class="row map-content-9">
                     <div class="col-lg-8">
                         <p class="mb-4">Seu endereço de e-mail não será publicado. Todos os campos são obrigatórios.</p>
-                        <form action="https://sendmail.w3layouts.com/submitForm" method="post" class="text-right">
+                        <form action="https://formsubmit.co/olympiacodecontato@gmail.com" method="post" class="text-right form">
                             <div class="form-grid">
-                                <input type="text" name="w3lName" id="w3lName" placeholder="Nome" required>
-                                <input type="email" name="w3lSender" id="w3lSender" placeholder="E-mail" required>
-                                <input type="text" name="w3lPhone" id="w3lPhone" placeholder="Número de telefone" required>
-                                <input type="text" name="w3lSubject" id="w3lSubject" placeholder="Assunto" required>
+                                <input type="text" name="Name" id="Name" placeholder="Nome" required>
+                                <input type="email" name="email" id="Sender" placeholder="E-mail" required>
+                                <input type="text" name="Phone" id="Phone" placeholder="Número de telefone" required>
+                                <input type="text" name="Subject" id="Subject" placeholder="Assunto" required>
                             </div>
-                            <textarea name="w3lMessage" id="w3lMessage" placeholder="Mensagem" required></textarea>
+                            <textarea name="Message" id="Message" placeholder="Mensagem" required></textarea>
+                            <input type="hidden" name="_next" value="https://olympia-code.vercel.app/index.html">
+                            <input type="hidden" name="_captcha" value="false">
                             <button type="submit" class="btn btn-primary btn-style mt-3">Enviar</button>
                         </form>
                     </div>
